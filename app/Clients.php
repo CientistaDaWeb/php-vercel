@@ -1,5 +1,7 @@
 <?php
 
+namespace App;
+
 class Clients
 {
     private $clients = [
