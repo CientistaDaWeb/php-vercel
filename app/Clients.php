@@ -4,7 +4,7 @@ namespace App;
 
 class Clients
 {
-    public $clients = [
+    const CLIENTS = [
         [
             'id' => 10,
             'name' => 'Fernando'
@@ -17,6 +17,6 @@ class Clients
 
     public static function getAll()
     {
-        return self::$clients;
+        return self::CLIENTS;
     }
 }
