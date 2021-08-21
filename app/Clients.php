@@ -4,7 +4,7 @@ namespace App;
 
 class Clients
 {
-    private $clients = [
+    public $clients = [
         [
             'id' => 10,
             'name' => 'Fernando'
