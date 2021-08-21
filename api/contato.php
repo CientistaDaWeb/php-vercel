@@ -1,5 +1,3 @@
 <?php
 
-require __DIR__ . '/../vendor/autoload.php';
-
-echo 'Envio do contato';
+echo 'Envio do formulário de contato';

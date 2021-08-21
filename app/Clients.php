@@ -6,11 +6,15 @@ class Clients
         [
             'id' => 10,
             'name' => 'Fernando'
+        ],
+        [
+            'id' => 2,
+            'name' => 'Henrique'
         ]
     ];
 
     public static function getAll()
     {
-        return json_encode(self::$clients, true);
+        return self::$clients;
     }
 }
