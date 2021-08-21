@@ -1,13 +1,13 @@
 {
   "version": 2,
   "functions": {
-    "public/index.php": {
-      "runtime": "vercel-php@0.4.0"
-    },
-    "public/contato.php": {
+    "api/index.php": {
       "runtime": "vercel-php@0.4.0"
     },
     "api/clients.php": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "api/contato.php": {
       "runtime": "vercel-php@0.4.0"
     }
   },
