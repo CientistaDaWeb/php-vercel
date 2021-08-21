@@ -1,5 +1,5 @@
 <?php
 
-require __DIR__.'/../vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
-echo 'O teste deu certo';
+echo 'O teste deu certo ' . date('d/m/Y');
